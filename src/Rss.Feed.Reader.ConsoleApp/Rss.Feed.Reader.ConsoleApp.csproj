@@ -5,4 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rss.Feed.Reader.Core\Rss.Feed.Reader.Core.csproj" />
+  </ItemGroup>
+
 </Project>
