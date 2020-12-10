@@ -39,7 +39,7 @@ namespace Rss.Feed.Reader.Core.Services
                 if (syndicationElementExtension != null)
                     channelItem.Content = syndicationElementExtension.GetObject<XElement>().Value;
 
-                channel.Itens.Add(channelItem);
+                channel.Items.Add(channelItem);
             }
 
             return channel;

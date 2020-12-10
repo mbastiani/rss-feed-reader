@@ -8,7 +8,7 @@ namespace Rss.Feed.Reader.Core.Models.XmlRss
     {
         public ChannelModel()
         {
-            Itens = new List<ChannelItemModel>();
+            Items = new List<ChannelItemModel>();
         }
 
         [XmlElement("title")]
@@ -18,6 +18,6 @@ namespace Rss.Feed.Reader.Core.Models.XmlRss
         [XmlElement("description")]
         public string Description { get; set; }
         [XmlElement("item")]
-        public List<ChannelItemModel> Itens { get; set; }
+        public List<ChannelItemModel> Items { get; set; }
     }
 }
