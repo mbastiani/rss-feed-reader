@@ -2,7 +2,7 @@
 
 namespace Rss.Feed.Reader.Core.Models.XmlRss
 {
-    public class ItemModel
+    public class ChannelItemModel
     {
         [XmlElement("title")]
         public string Title { get; set; }
@@ -11,7 +11,7 @@ namespace Rss.Feed.Reader.Core.Models.XmlRss
         [XmlElement("description")]
         public string Description { get; set; }
         
-        [XmlElement("content:encoded")]
+        [XmlElement("content\\:encoded")]
         public string Content { get; set; }
     }
 }
